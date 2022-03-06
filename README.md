@@ -21,12 +21,7 @@
 
 <h2 id="aprendizado"> 🤓 Aprendizados </h2>
 
- - Divisão do html (header, nav, main, section, div e footer);
- - Utilização de fontes externas :link: ([Inter](https://fonts.google.com/specimen/Inter));
- - Flex-box;
- - Eventos em javascript;
- - Manipulação do DOM;
- - Responsividade.
+
 
 <h2 id="requisitos"> 📄 Requisitos </h2>
 
