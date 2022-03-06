@@ -1,6 +1,12 @@
 <h1 align="center">Projeto Portfólio 
 </h1>
 
+
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
+
+
 <p align="center">
   <a href="#tecnologias">Tecnologias</a> |
   <a href="#aprendizado">Aprendizado</a> |
