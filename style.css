@@ -97,6 +97,10 @@ header i {
   border: 2px solid white;
 }
 
+.section-div div a:hover {
+  color: #707070;
+}
+
 .section-div img {
   max-width: 100%;
 }
