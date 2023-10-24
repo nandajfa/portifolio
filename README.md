@@ -1,14 +1,11 @@
 <h1 align="center">Projeto Portfólio
 </h1>
 
-<h4 align="center">
-    :construction:  Projeto em construção  :construction:
-</h4>
-
 <p align="center">
   <a href="#tecnologias">Tecnologias</a> |
-  <a href="#aprendizado">Aprendizado</a> |
   <a href="#requisitos">Requisitos</a> |
+  <a href="#deploy">Deploy</a> |
+  <a href="#autor">Autor</a> |
 </p>
 
 <p align="center">
@@ -21,9 +18,6 @@ Foram utilizadas as segintes ferramentas no desenvolvimento:
 - HTML
 - JS
 - CSS
-- Protótipo 🔗 [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=58198%3A756)
-
-<h2 id="aprendizado"> 🤓 Aprendizados </h2>
 
 <h2 id="requisitos"> 📄 Requisitos </h2>
 
@@ -32,9 +26,11 @@ Foram utilizadas as segintes ferramentas no desenvolvimento:
 - Extensão para o VS Code :link: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - Browser :link: [Chrome](https://www.google.pt/intl/pt-PT/chrome/?brand=ISCS&gclid=CjwKCAiAtouOBhA6EiwA2nLKHzAVeY7vzxHKqYQHR9e2iF4Q-UYwVeNg_5CdIuPOs6RF2hbwjslc8xoCK3QQAvD_BwE&gclsrc=aw.ds)
 
-### Autor
+<h2 id="deploy"> 🌐 Deploy</h2>
 
-## Author
+(Portifófio - Jessica Fernanda)[https://potfifolio-jessicafam.netlify.app/]
+
+<h2 id="autor"> 🙎 Autor</h2>
 
 | [<img src="https://avatars.githubusercontent.com/u/80687429?v=4" width=115><br><sub>Jessica Fernanda</sub>](https://github.com/nandajfa) |
 | :--------------------------------------------------------------------------------------------------------------------------------------: |

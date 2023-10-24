@@ -1,88 +1,241 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
 
-    <!-- CSS-->
-    <link rel="stylesheet" href="./style.css" />
-    <!-- Fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portifólio</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <title>Portifólio</title>
-  </head>
-  <body>
-    <section id="home">
-      <div class="content">
-        <header id="#">
+<body>
+	<header>
+		<h1 id="portifolio">Portifólio </h1>
+		<nav>
+			<ul class="navegacao-primaria">
+				<li><a href="#portifolio">Início</a></li>
+				<li><a href="#sobre-mim">Sobre</a></li>
+				<li><a href="#resumo">Resumo</a></li>
+				<li><a href="#conhecimento">Conhecimentos</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+			</ul>
+			<i class="fa-solid fa-bars"></i>
+		</nav>
+	</header>
+	<section aria-label="seção curriculo download jessica" class="section-div">
+		<div>
+			<h2>Jessica Fernanda</h2>
+			<h2 class="digitando">Web Developer Full-stack</h2>
 
-            <span>Portifólio</span>
+			<a href="./cv/JessicaFernanda.pdf" target="_blank">Download CV</a>
+		</div>
+		<img src="./img/Looper.png">
+	</section>
+	<main>
+		<article aria-label="seção sobre mim" class="sobre">
+			<div class="sobre_titulo">
 
-            <nav>
-              <ul id="menu">
-                <li class="nav-li"><a class="navlink" href="#">Home</a></li>
-                <li class="nav-li">
-                  <a class="navlink" href="#about">Sobre mim</a>
-                </li>
-                <li class="nav-li">
-                  <a class="navlink" href="#experiencia">Experiência</a>
-                </li>
-                <li class="nav-li">
-                  <a class="navlink" href="#projetos">Projetos</a>
-                </li>
-              </ul>
-            </nav>
+				<h1 id="sobre-mim">Sobre mim</h1>
+				<p>Perfil profissional</p>
+				<div aria-label="Seção de ilustração de botões">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<img src="./img/Design.png" alt="Imagem da pessoa">
+			<div class="sobre_conteudo">
+				<div class="sobre_texto">
+					<h1>Eu sou a Jessica</h1>
+					<p>- Desenvolvimento de interfaces e APIS com Javascript/Node desde 2022. <br>
+						- Cursando Engenharia de software.<br>
+						- Projetos em C e C++ desde 2021. <br>
+						- Interesse em desenvolvimento Front-end e Back-end. <br>
+						- Buscando uma oportunidade como Desenvolvedora.
+					</p>
+				</div>
+				<div class="sobre_info">
+					<p><i class="fa-sharp fa-solid fa-laptop-code"></i>Freelance: Disponível</p>
+					<p><i class="fa-solid fa-location-dot"></i>Zona norte, São Paulo.</p>
+					<p><i class="fa-solid fa-phone-volume"></i><a href="http://wa.me/5511967066888"
+							target="_blank">Whatsapp: 11 96706-6888</a></p>
+					<p><i class="fa-solid fa-envelope"></i><a href="mailto:nanda.jfa@gmail.com" target="_blank">Email:
+							nanda.jfa@gmail.com</a></p>
+				</div>
+			</div>
+		</article>
+	</main>
+	<div class="experiencias">
+		<div class="sobre_titulo">
+			<h1 id="resumo">Resumo</h1>
+			<p>Experiências - Formação </p>
+			<div aria-label="Seção de ilustração de botões">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="resumo">
+			<h2 class="experiencia"><i class="fa-solid fa-handshake"></i>EXPERIÊNCIAS</h2>
+			<div class="experiencia-conteudo">
+				<div>
+					<span>2022-2023</span>
+					<h3>Engenheira de software - Mills</h3>
+					<p>Javascript | Node | Typescript | Oracle digital assistent | APIs Rest | MySql | Swagger | Scrum.
+					</p>
+				</div>
+				<div>
+					<span>2022</span>
+					<h3>Basecamp Staff</h3>
+					<p>Staff no processo seletivo da 42sp. <br>
+						Auxílio com chamados técnicos e revisão de exames.
+					</p>
+				</div>
+				<ul>
+					<li><i class="fa-sharp fa-solid fa-circle"></i></li>
+					<li><i class="fa-sharp fa-solid fa-circle"></i></li>
+				</ul>
+			</div>
+			<h2 class="educacao"><i class="fa-solid fa-book"></i>FORMAÇÃO</h2>
+			<div class="educacao-conteudo">
+				<div>
+					<span>2021-2024</span>
+					<h3>42 São Paulo | Escola de Tecnologia</h3>
+					<p>Formação em engenharia de software. <br>
+						Linguagens C | C++
+					</p>
+				</div>
+				<div>
+					<span>2023</span>
+					<h3>OneBitCode</h3>
+					<p>Formação - Full Stack Javascript <br>
+						HTML5 | CSS3 | Javascript | Typescript | React
+					</p>
+				</div>
+				<div>
+					<span>2021</span>
+					<h3>CAPPACITA DEV | D1 - Smarkio</h3>
+					<p>Programação de IAs conversacionais. <br>
+						Javascript | nodejs | ES6 | JEST/JOI | MySQL | RestAPI
+					</p>
+				</div>
+				<ul>
+					<li><i class="fa-sharp fa-solid fa-circle"></i></li>
+					<li><i class="fa-sharp fa-solid fa-circle"></i></li>
+					<li><i class="fa-sharp fa-solid fa-circle"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="s-skill">
+		<div class="sobre_titulo">
+			<h1 id="conhecimento">Conhecimentos</h1>
+			<p>Tecnologias</p>
+			<div aria-label="Seção de ilustração de botões">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div id="skills-cards">
 
-        </header>
-        <hr size="1" />
+			<img src="./img/icons8-html.svg" height="78" width="78" alt="icone do html">
+			<img src="./img/icons8-css.svg" class="css3" height="90" width="90" alt="icone do css">
 
-        <div class="name">
-          <div class="left">
-            <h1>Jessica Fernanda</h1>
-            <span>Desenvolvedora Front-End</span>
-            <div class="btn">
-              <a href="https://www.linkedin.com/in/jessica-fernanda-106651205/" target="_blank"><button class="border-gradient border-gradient-purple">
-                <img
-                  src="./img/link.png"
-                  width="20px"
-                  height="17px"
-                  class="i"
-                />
-                Linkedin
-              </button></a>
-              <a href="https://github.com/nandajfa" target="_blank"><button class="border-gradient border-gradient-purple">
-                <img src="./img/git.png" width="17px" height="17px" />
-                Github
-              </button></a>
-            </div>
-          </div>
-          <img src="./img/Looper BG.png" class="pol">
-        </div>
-      </div>
-    </section>
-    <section class="about" id="about">
-      <div class="about-content">
-        <div class="left"><img src="./img/12.jpg" alt="photo"></div>
-        <div class="right">
-          <h2>Sobre mim</h2>
-          <h3>São Paulo, Brasil</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto cum voluptate vero, esse blanditiis repellendus aspernatur nisi praesentium magni provident corporis sunt suscipit eveniet ullam, sequi soluta sed error? Ipsa.</p>
-          <div class="contact">
-            <a href="" target="_blank"><button class="border-gradient border-gradient-purple">Curriculo</button></a>
-            <a href="" target="_blank"><button class="border-gradient border-gradient-purple">E-mail</button></a>
-          </div>
-        </div>
-      </div>
-    </section>
+			<img src="./img/icons8-js-100.png" height="78" width="78" alt="icone do js">
+			<img src="./img/type.png" class="type" height="90" width="90" alt="icone do type">
+			<img src="./img/mysql.png" height="78" width="78" alt="icone do mysql">
+			<img src="./img/docker.png" height="78" width="78" alt="icone do docker">
+			<img src="./img/icons8-c-100.png" height="78" width="78" alt="icone do c">
+			<img src="./img/icons8-c++.svg" height="78" width="78" alt="icone do c++">
 
+		</div>
+	</div>
+	<section class="projetos">
+		<div class="sobre_titulo">
+			<h1 id="projetos">Projetos</h1>
+			<p></p>
+			<div aria-label="Seção de ilustração de botões">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="m_projetos">
+			<ul>
+				<a href="https://github.com/nandajfa/webserv" target="_blank">
+					<li>
+						<i class="fa-solid fa-globe"></i>
+						<h3>Webserv</h3>
+						<p>Um servidor HTTP web. <br>
+							Projeto realizado com a linguagem C++.</p>
+					</li>
+				</a>
+				<a href="https://github.com/nandajfa/ft_transcendence" target="_blank">
+					<li>
+						<i class="fa-solid fa-gamepad"></i>
+						<h3>Ft_Transcendence</h3>
+						<p>Um website de um jogo de Pong. Com criação de usuário, bate-papo
+							e jogador multiplayer em tempo real.</p>
+					</li>
+				</a>
+				<a href="https://pomodoro-n.netlify.app/" target="_blank">
+					<li>
+						<i class="fa-solid fa-clock"></i>
+						<h3>Pomodoro</h3>
+						<p>Ferramenta para gerenciamento de tempo.</p>
+					</li>
+				</a>
+				<a href="https://landingmusic.netlify.app/" target="_blank">
+					<li>
+						<i class="fa-solid fa-laptop-file"></i>
+						<h3>Landing page</h3>
+						<p>Projeto de landing Page com HTML, CSS e Javascript.</p>
+					</li>
+				</a>
+				<a href="https://github.com/nandajfa/dont_panic" target="_blank">
+					<li>
+						<i class="fa-solid fa-not-equal"></i>
+						<h3>Don't panic</h3>
+						<p>Descubra qual é a equação correta que resulta em 42 com este jogo.</p>
+					</li>
+				</a>
+				<a href="https://github.com/nandajfa/cub3D" target="_blank">
+					<li>
+						<i class="fa-solid fa-dice-d6"></i>
+						<h3>Cub 3D</h3>
+						<p>Projeto inspirado no famoso jogo Wolfenstein 3D com ray-casting.</p>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<nav aria-label="navegação de links sociais">
+			<ul class="footer_sociais">
+				<a href="https://www.facebook.com/nanda.alves.56" target="_blank">
+					<li><i class="fa-brands fa-facebook-f"></i></li>
+				</a>
+				<a href="https://www.linkedin.com/in/jessica-fernanda-programadora/" target="_blank">
+					<li><i class="fa-brands fa-linkedin-in"></i></li>
+				</a>
+				<a href="https://www.instagram.com/nandajfa/" target="_blank">
+					<li><i class="fa-brands fa-instagram"></i></li>
+				</a>
+				<a href="https://github.com/nandajfa" target="_blank">
+					<li><i class="fa-brands fa-github-alt"></i></li>
+				</a>
+			</ul>
+		</nav>
+		<p class="footer_comercial">Todos os direitos reservados - Jessica Fernanda &copy; 2023</p>
+		<a href="#portifolio" class="voltar-ao-topo">
+			<i class="fa-solid fa-arrow-up"></i>
+		</a>
+	</footer>
+	<script src="./script.js"></script>
+</body>
 
-
-
-  </body>
 </html>
