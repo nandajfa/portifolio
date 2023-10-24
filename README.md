@@ -28,7 +28,7 @@ Foram utilizadas as segintes ferramentas no desenvolvimento:
 
 <h2 id="deploy"> 🌐 Deploy</h2>
 
-(Portifófio - Jessica Fernanda)[https://potfifolio-jessicafam.netlify.app/]
+[Portifófio - Jessica Fernanda](https://potfifolio-jessicafam.netlify.app/)
 
 <h2 id="autor"> 🙎 Autor</h2>
 
