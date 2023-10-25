@@ -32,7 +32,7 @@ Foram utilizadas as segintes ferramentas no desenvolvimento:
 
 ## Deploy
 
-[Portifófio - Jessica Fernanda](https://potfifolio-jessicafam.netlify.app/)
+[Portifófio - Jessica Fernanda](https://portifolio-jessicafam.netlify.app/)
 
 ## Autor
 
