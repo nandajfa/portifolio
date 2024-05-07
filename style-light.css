@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #151515;
+  background-color: #e0e0e0;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -19,7 +19,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: #151515;
+  background-color: #e0e0e0;
   padding: 25px;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ header {
 }
 
 header h1 {
-  color: #0abab5;
+  color: #808080;
   font-size: 1.5rem;
 }
 
@@ -38,7 +38,7 @@ header .navegacao-primaria {
 }
 
 header .navegacao-primaria li a {
-  color: #fff;
+  color: #808080;
   width: 0px;
   height: 0px;
   font-size: 1.3rem;
@@ -57,22 +57,23 @@ header .navegacao-primaria li a:hover::after {
   width: 100%;
   height: 0px;
   padding: 0px;
-  border-bottom: 4px solid #0abab5;
+  border-bottom: 4px solid #808080;
 }
 
-header i {
-  color: #151515;
-}
-
-#mode-toggle-on {
+#hamburguer {
+  color: #e0e0e0;
   display: none;
 }
 
-#mode-toggle-off {
+#mode-toggle-on {
   display: block;
-  color: #0abab5;
   cursor: pointer;
+  color: #808080;
   font-size: 1.5rem;
+}
+
+#mode-toggle-off {
+  display: none;
 }
 
 .toggle-icon {
@@ -92,7 +93,7 @@ header i {
 
 .section-div {
   animation: init 0.7s forwards;
-  background-color: #151515;
+  background-color: #e0e0e0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
@@ -112,23 +113,23 @@ header i {
   font-family: 'Poppins';
   font-size: 2rem;
   font-weight: 600;
-  color: #f7f7f7;
+  color: #808080;
 }
 
 .section-div div a {
   justify-self: start;
-  color: #fff;
+  color: #808080;
   padding: 15px 40px;
   border-radius: 5px;
-  border: 2px solid white;
+  border: 2px solid #808080;
 }
 
 .section-div div a:hover {
-  color: #707070;
+  color: #a9a9a9;
 }
 
 .section-div img {
-  max-width: 100%;
+  display: none;
 }
 
 .digitando::after {
@@ -163,7 +164,7 @@ header i {
 /* Seção principal sobre mim */
 
 main {
-  background-color: #111;
+  background-color: #cccccc;
   color: white;
 }
 
@@ -180,12 +181,11 @@ main .sobre {
   margin: 30px 0;
   grid-column: 1/-1;
   text-align: center;
-  color: #fff;
 }
 
 .sobre_titulo h1 {
   font-size: 2.5rem;
-  color: #0abab5;
+  color: #808080;
   margin-bottom: 15px;
   font-family: 'Berkshire Swash', cursive;
 }
@@ -208,7 +208,7 @@ main .sobre {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: #0abab5;
+  background-color: #808080;
 }
 
 .sobre img {
@@ -255,7 +255,7 @@ main .sobre {
 }
 
 .sobre_info i {
-  color: #0abab5;
+  color: #808080;
   display: inline-block;
   padding-right: 15px;
   font-size: 1.5rem;
@@ -314,6 +314,7 @@ main .sobre {
   header i {
     color: #f7f7f7;
     font-size: 3rem;
+    display: block;
   }
 
   header .navegacao-primaria.ativado {
@@ -364,7 +365,7 @@ main .sobre {
 .resumo h2 {
   font-family: 'Poppins';
   font-size: 1.5rem;
-  background-color: #0abab5;
+  background-color: #808080;
   justify-self: start;
   padding: 10px;
   border-radius: 3px;
@@ -387,7 +388,7 @@ main .sobre {
 }
 
 .experiencia-conteudo ul {
-  color: #0abab5;
+  color: #cccccc;
   gap: 10px;
   display: flex;
   cursor: pointer;
@@ -396,7 +397,7 @@ main .sobre {
 }
 
 .resumo .experiencia-conteudo div {
-  background-color: #222;
+  background-color: #cccccc;
   animation: ladoSecao 0.5s ease-in-out forwards;
   display: none;
   padding: 40px;
@@ -410,7 +411,7 @@ main .sobre {
 .resumo .experiencia-conteudo div::before {
   content: '';
   border-right: 30px solid transparent;
-  border-bottom: 30px solid #222;
+  border-bottom: 30px solid #cccccc;
   position: absolute;
   top: -20px;
   left: 30px;
@@ -418,7 +419,7 @@ main .sobre {
 }
 
 .resumo .experiencia-conteudo div span {
-  color: #0abab5;
+  color: #808080;
   font-family: 'Poppins';
   font-weight: bold;
 }
@@ -426,6 +427,7 @@ main .sobre {
 .resumo .experiencia-conteudo div h3 {
   font-family: 'Poppins';
   margin: 10px 0;
+  color: #707070;
 }
 
 .resumo .experiencia-conteudo div p {
@@ -440,7 +442,7 @@ main .sobre {
 /* Educaçao */
 
 .resumo .educacao-conteudo div {
-  background-color: #222;
+  background-color: #cccccc;
   padding: 40px;
   display: none;
   animation: ladoSecao 0.5s ease-in-out forwards;
@@ -448,7 +450,7 @@ main .sobre {
 }
 
 .educacao-conteudo ul {
-  color: #0abab5;
+  color: #cccccc;
   gap: 10px;
   display: flex;
   cursor: pointer;
@@ -459,7 +461,7 @@ main .sobre {
 .resumo .educacao-conteudo div::before {
   content: '';
   border-right: 30px solid transparent;
-  border-bottom: 30px solid #222;
+  border-bottom: 30px solid #cccccc;
   position: absolute;
   top: -20px;
   left: 30px;
@@ -467,7 +469,7 @@ main .sobre {
 }
 
 .resumo .educacao-conteudo div span {
-  color: #0abab5;
+  color: #808080;
   font-family: 'Poppins';
   font-weight: bold;
 }
@@ -475,6 +477,7 @@ main .sobre {
 .resumo .educacao-conteudo div h3 {
   font-family: 'Poppins';
   margin: 10px 0;
+  color: #707070;
 }
 
 .resumo .educacao-conteudo div p {
@@ -493,7 +496,7 @@ main .sobre {
 /* SKILLS */
 
 .s-skill {
-  background-color: #111;
+  background-color: #cccccc;
   padding-bottom: 40px;
 }
 
@@ -509,14 +512,12 @@ main .sobre {
 
 #skills-cards > div {
   text-align: center;
-  position: relative;
 }
 
 #skills-cards i {
-  color: #0abab5;
+  color: #808080;
   font-size: 4rem;
   margin: 10px;
-  position: relative;
 }
 
 #skills-cards i:hover {
@@ -538,7 +539,7 @@ main .sobre {
   bottom: -25px;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: #3e3d3d;
   font-size: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -559,7 +560,7 @@ main .sobre {
   opacity: 1;
 }
 
-.light {
+.dark {
   display: none;
 }
 
@@ -598,17 +599,17 @@ main .sobre {
   max-width: 300px;
   align-content: center;
   height: 300px;
-  background-color: #222;
+  background-color: #cccccc;
   flex-basis: 200px;
 }
 
 .m_projetos ul li i {
   font-size: 2.7rem;
-  color: #0abab5;
+  color: #808080;
 }
 
 .m_projetos ul li h3 {
-  color: #fff;
+  color: #707070;
   font-size: 1.6rem;
   font-family: 'Poppins';
   font-weight: 500;
@@ -648,21 +649,21 @@ main .sobre {
 .m_projetos li:hover::before {
   width: 100%;
   height: 100%;
-  border-top: 2px solid #0abab5;
-  border-right: 2px solid #0abab5;
+  border-top: 2px solid #a9a9a9;
+  border-right: 2px solid #a9a9a9;
 }
 
 .m_projetos li:hover::after {
   width: 100%;
   height: 100%;
-  border-bottom: 2px solid #0abab5;
-  border-left: 2px solid #0abab5;
+  border-bottom: 2px solid #a9a9a9;
+  border-left: 2px solid #a9a9a9;
 }
 
 /* FOOTER */
 
 footer {
-  background-color: #111;
+  background-color: #cccccc;
   padding: 30px;
 }
 
@@ -673,20 +674,20 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   position: relative;
-  color: #f7f7f7;
+  color: #808080;
   margin-top: 30px;
 }
 
 .footer_sociais li {
-  background-color: #212020;
+  background-color: #808080;
   border-radius: 50%;
-  border: 1px solid #333;
+  border: 1px solid #a9a9a9;
 }
 
 .footer_sociais li i {
   padding: 30px;
   font-size: 1.5rem;
-  color: #f7f7f7;
+  color: #cccccc;
 }
 
 .footer_sociais li:hover {
@@ -701,12 +702,12 @@ footer {
   height: 5px;
   width: 200px;
   bottom: -30px;
-  background-color: #222;
+  background-color: #808080;
 }
 
 footer .footer_comercial {
   text-align: center;
-  color: #fff;
+  color: #808080;
   margin: 70px auto;
   font-size: 1.5rem;
   font-family: 'Poppins';
@@ -714,7 +715,7 @@ footer .footer_comercial {
 
 .voltar-ao-topo {
   font-size: 20px;
-  color: #0abab5;
+  color: #808080;
   margin-right: 10px;
 }
 

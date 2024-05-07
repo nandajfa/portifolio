@@ -5,15 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portifólio</title>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./style.css" id="theme-style">
+
+	<!-- Icons  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
 		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 <body>
 	<header>
-		<h1 id="portifolio">Portifólio </h1>
+		<h1 id="portifolio">JF. </h1>
 		<nav>
 			<ul class="navegacao-primaria">
 				<li><a href="#portifolio">Início</a></li>
@@ -21,8 +25,15 @@
 				<li><a href="#resumo">Resumo</a></li>
 				<li><a href="#conhecimento">Conhecimentos</a></li>
 				<li><a href="#projetos">Projetos</a></li>
+
+				<li>
+					<span class="toggle-icon" onclick="toggleMode()">
+						<i class="fa-solid fa-toggle-on" id="mode-toggle-on"></i>
+						<i class="fa-solid fa-toggle-off" id="mode-toggle-off"></i>
+					</span>
+				</li>
 			</ul>
-			<i class="fa-solid fa-bars"></i>
+			<i class="fa-solid fa-bars" id="hamburguer"></i>
 		</nav>
 	</header>
 	<section aria-label="seção curriculo download jessica" class="section-div">
@@ -46,13 +57,19 @@
 					<span></span>
 				</div>
 			</div>
-			<img src="./img/Design.png" alt="Imagem da pessoa">
+			<img src="./img/Design.png" alt="Imagem da pessoa" class="dark">
+			<img src="./img/design-light.png" alt="Imagem da pessoa" class="light">
 			<div class="sobre_conteudo">
 				<div class="sobre_texto">
 
-					<p>- Desenvolvimento de interfaces e APIS com Javascript/Node desde 2022. <br>
+					<p>
+						Sou formada em Engenharia de software e meu foco principal é no Desenvolvimento full-stack. Já
+						desenvolvi projetos tanto no Frontend quanto no Backend. <br><br>
+						- Desenvolvimento Frontend: HTML5, CSS3, Javascript/Typescript, React. <br>
+						- Desenvolvimento Backend: Node, Nest.js, ApiRest <br>
+						- Banco de dados: MySQL, PostgreSQL. <br>
+						- Ferramentas: Docker, Swagger, Git, Insomnia. <br>
 						- Projetos em C e C++ desde 2021. <br>
-						- Interesse em desenvolvimento Front-end e Back-end. <br>
 					</p>
 				</div>
 				<div class="sobre_info">
@@ -139,15 +156,32 @@
 			</div>
 		</div>
 		<div id="skills-cards">
+			<i class="fa-brands fa-html5 tool" data-tooltip="HTML"></i>
 
-			<img src="./img/icons8-html.svg" height="78" width="78" alt="icone do html">
-			<img src="./img/icons8-css.svg" class="css3" height="90" width="90" alt="icone do css">
-			<img src="./img/icons8-js-100.png" height="78" width="78" alt="icone do js">
-			<img src="./img/type.png" class="type" height="90" width="90" alt="icone do type">
-			<img src="./img/mysql.png" height="78" width="78" alt="icone do mysql">
-			<img src="./img/docker.png" height="78" width="78" alt="icone do docker">
-			<img src="./img/icons8-c-100.png" height="78" width="78" alt="icone do c">
-			<img src="./img/icons8-c++.svg" height="78" width="78" alt="icone do c++">
+			<i class="fa-brands fa-css3-alt tool" data-tooltip="CSS"></i>
+			<i class="fa-brands fa-js tool" data-tooltip="Javascript"></i>
+
+			<i class="tool-img light" data-tooltip="Typescript"><img src="./img/ts-light.png"></i>
+			<i class="tool-img dark" data-tooltip="Typescript"><img src="./img/ts.png"></i>
+
+			<i class="fa-brands fa-node-js tool" data-tooltip="Node.js"></i>
+
+			<i class="tool-img light" data-tooltip="Nest.js"><img src="./img/nest-light.png"></i>
+			<i class="tool-img dark" data-tooltip="Nest.js"><img src="./img/nest.png"></i>
+
+			<i class="fa-solid fa-c tool" data-tooltip="C"></i>
+
+			<i class="tool-img light" data-tooltip="C++"><img src="./img/c++-light.png"></i>
+			<i class="tool-img dark" data-tooltip="C++"><img src="./img/c++.png"></i>
+
+			<i class="tool-img light" data-tooltip="MySql"><img src="./img/sql-light.png"></i>
+			<i class="tool-img dark" data-tooltip="MySql"><img src="./img/mysql.png"></i>
+
+			<i class="tool-img light" data-tooltip="PostgreSql"><img src="./img/post-light.png"></i>
+			<i class="tool-img dark" data-tooltip="PostgreSql"><img src="./img/postgres.png"></i>
+
+			<i class="fa-brands fa-git-alt tool" data-tooltip="Git"></i>
+			<i class="fa-brands fa-docker tool" data-tooltip="Docker"></i>
 
 		</div>
 	</div>
@@ -227,7 +261,9 @@
 				</a>
 			</ul>
 		</nav>
-		<p class="footer_comercial">Todos os direitos reservados - Jessica Fernanda &copy; 2023</p>
+		<p class="footer_comercial">Todos os direitos reservados - Jessica Fernanda &copy;
+			<script>document.write(new Date().getFullYear());</script>.
+		</p>
 		<a href="#portifolio" class="voltar-ao-topo">
 			<i class="fa-solid fa-arrow-up"></i>
 		</a>
